@@ -11,6 +11,7 @@ dependencies {
     compile files('lib/PacketProxyLib.jar')
     compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.0'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.10.0'
+    compile 'org.msgpack:jackson-dataformat-msgpack:0.7.1'
 }
 
 shadowJar {
