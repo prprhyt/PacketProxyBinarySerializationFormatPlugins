@@ -4,7 +4,7 @@
 $ git clone https://github.com/dena/PacketProxyPlugin.git
 $ cd PacketProxyPlugin/
 $ vi src/main/java/packetproxy/encode/packetproxyplugin/EncodeHoge.java # エンコードモジュールを実装してください
-$ ./gradlew build
+$ ./gradlew shadowJar
 ```
 
 ビルドに成功すると `build/libs/PakcetProxyPlugin-[バージョン].jar` が生成されます。
