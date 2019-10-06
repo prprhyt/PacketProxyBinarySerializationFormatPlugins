@@ -9,7 +9,18 @@ This repository include following plugins,
 
 This plugin was created based on [this template(DeNA/PacketProxyPlugin)](https://github.com/DeNA/PacketProxyPlugin).
 
-## Build & Install
+## Install
+
+### Install from released JAR file
+
+1. Go to release page.
+https://github.com/prprhyt/PacketProxyBinarySerializationFormatPlugins/releases
+1. Download latest version jar file.
+1. Execute `open ~/.packetproxy/plugins` in Terminal. (If it does not exist, you should create it.)
+1. Drug jar file to `~/.packetproxy/plugins` and drop it.
+1. Run PacketProxy, you can select `CBOR2JSON` and `MessagePack2JSON` encode module in servers panel.
+
+### Build & Install from source code yourself.
 
 ```bash
 $ git clone git@github.com:prprhyt/PacketProxyBinarySerializationFormatPlugins.git
