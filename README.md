@@ -18,6 +18,14 @@ $ cp build/libs/PacketProxyPlugin-1.0.0-all.jar ~/.packetproxy/plugins/BinarySer
 
 After finishing the installation, you can select `CBOR2JSON` and `MessagePack2JSON` encode module in servers panel.
 
+## ScreenShot
+
+CBOR2JSON
+![CBOR2JSON](https://github.com/prprhyt/PacketProxyBinarySerializationFormatPlugins/raw/master/screenshot/cbor2json.png)
+
+MessagePack2JSON
+![MessagePack2JSON](https://github.com/prprhyt/PacketProxyBinarySerializationFormatPlugins/raw/master/screenshot/msgpack2json.png)
+
 # Licences
 
 Apache License 2.0
