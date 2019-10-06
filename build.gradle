@@ -1,4 +1,5 @@
 plugins {
+    id 'com.github.johnrengelman.shadow' version '4.0.4'
     id 'java'
 }
 
@@ -8,7 +9,15 @@ repositories {
 
 dependencies {
     compile files('lib/PacketProxyLib.jar')
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.0'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.10.0'
+}
+
+shadowJar {
+    exclude 'module-info.class'
+    exclude 'packetproxy/**'
 }
 
 version '1.0.0'
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
