@@ -7,6 +7,8 @@ This repository include following plugins,
 - CBOR2JSON: CBOR <-> JSON plugin
 - MessagePack2JSON: MessagePack <-> JSON plugin.
 
+This plugin was created based on [this template(DeNA/PacketProxyPlugin)](https://github.com/DeNA/PacketProxyPlugin).
+
 ## Build & Install
 
 ```bash
