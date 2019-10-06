@@ -18,6 +18,11 @@ shadowJar {
     exclude 'packetproxy/**'
 }
 
+shadowJar {
+    exclude 'module-info.class'
+    exclude 'packetproxy/**'
+}
+
 version '1.0.0'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
